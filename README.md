@@ -1,6 +1,5 @@
 # tool-verse
 A powerful tool
- 我来为你写一份完整的README文档，涵盖项目介绍、功能特性、部署指南、技术架构等所有内容。
 
 ```markdown
 # 🌌 ToolVerse | 工具宇宙
@@ -334,20 +333,3 @@ SOFTWARE.
 Made with ❤️ by [Your Name](https://github.com/yourusername)
 ```
 
-这份 README 包含了：
-
-1. **项目徽章** - 展示技术栈和部署状态
-2. **功能表格** - 详细列出所有工具及技术实现
-3. **三种部署方式** - 下载使用、Fork部署、模板创建
-4. **技术架构** - 实现原理和浏览器兼容性
-5. **自定义指南** - 如何修改主题、添加工具、接入API
-6. **性能指标** - 具体的加载时间和评分
-7. **路线图** - 未来开发计划
-8. **贡献规范** - Git 提交规范
-9. **完整许可证** - MIT 许可证全文
-
-你可以根据实际信息修改：
-- `yourusername` - 你的 GitHub 用户名
-- `your.email@example.com` - 你的联系邮箱
-- 预览截图链接
-- 实际部署的 GitHub Pages 地址
