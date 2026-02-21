@@ -1,8 +1,7 @@
 # tool-verse
 A powerful tool
 
-```markdown
-# 🌌 ToolVerse | 工具宇宙
+ 🌌 ToolVerse | 工具宇宙
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen?logo=github)](https://yourusername.github.io/toolverse)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
