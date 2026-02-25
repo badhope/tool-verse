@@ -1,334 +1,121 @@
-# tool-verse
-A powerful tool
+# Tool-Verse 工具宇宙 Pro
 
- 🌌 ToolVerse | 工具宇宙
-
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen?logo=github)](https://yourusername.github.io/toolverse)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-
-> **纯前端实现 | 无需后端 | 开箱即用 | 永久免费**
-
-ToolVerse 是一个基于纯 HTML/CSS/JavaScript 构建的个人工具集成网站，包含 18+ 实用工具，支持暗黑模式、响应式设计，可零成本部署到 GitHub Pages。
-
-![预览截图](https://via.placeholder.com/800x400/667eea/ffffff?text=ToolVerse+Preview)
+![GitHub stars](https://img.shields.io/github/stars/badhope/tool-verse?style=social)
+![GitHub forks](https://img.shields.io/github/forks/badhope/tool-verse?style=social)
+![GitHub issues](https://img.shields.io/github/issues/badhope/tool-verse)
+![GitHub license](https://img.shields.io/github/license/badhope/tool-verse)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 ---
 
-## ✨ 核心特性
+## 项目简介
 
-### 🎨 设计美学
-- **玻璃拟态 (Glassmorphism)** - 半透明毛玻璃视觉效果
-- **动态粒子背景** - 浮动的渐变粒子动画
-- **暗黑/亮色双主题** - 自动检测系统偏好，支持手动切换
-- **完全响应式** - 完美适配移动端、平板、桌面端
-
-### ⚡ 性能优化
-- **零依赖** - 仅使用 CDN 加载 Tailwind CSS 和 Font Awesome
-- **懒加载** - 工具模块按需渲染
-- **本地存储** - 主题偏好、游戏分数、历史记录持久化
-- **离线可用** - 纯本地计算工具无需网络连接
-
-### 🔒 隐私安全
-- **无数据收集** - 所有数据存储在本地浏览器
-- **无第三方追踪** - 不依赖 Google Analytics 等追踪服务
-- **API 调用透明** - 仅调用公开的免费 API（天气、加密货币等）
+Tool-Verse 工具宇宙 Pro 是一款**纯前端原生实现**的一站式离线工具集，内置 50+ 开箱即用的效率工具，覆盖 AI 智能、开发辅助、图片处理、文本办公、生活实用、休闲娱乐等全场景需求。项目全程基于浏览器端运行，无后端服务依赖，无任何用户数据收集，开箱即用、零部署成本，是开发者、办公人群、日常用户的全能效率工具箱。
 
 ---
 
-## 🛠️ 工具清单（18+ 个）
+## 核心特性
 
-### ⏰ 时间日期工具
-| 工具 | 功能描述 | 技术实现 |
-|------|---------|---------|
-| 🌍 **世界时钟** | 实时显示全球6大城市时间 | `Date` 对象时区计算 |
-| ⏳ **倒计时器** | 自定义目标时间倒计时 | `setInterval` + 本地存储 |
-| 🌙 **农历转换** | 公历转农历，含干支纪年 | 农历算法库（简化版） |
-| ⏱️ **秒表** | 精确计时，支持分段计次 | `Date.now()` 高精度计时 |
-| 🧮 **时间计算** | 日期差计算、天数加减 | 原生 Date API |
-
-### 📝 文本处理工具
-| 工具 | 功能描述 | 技术实现 |
-|------|---------|---------|
-| 📱 **二维码生成** | 文本/网址转二维码，支持下载 | [QRCode.js](https://github.com/davidshimjs/qrcodejs) |
-| 📊 **文本统计** | 字数、字符、词频、行数统计 | 正则表达式分析 |
-| 📋 **JSON格式化** | 美化、压缩、校验、复制 | `JSON.parse/stringify` |
-| 🔐 **Base64转换** | 编码解码，支持图片 | `btoa/atob` API |
-| 🔑 **密码生成器** | 强密码生成，强度检测 | 加密随机数生成 |
-| 🈶 **汉字转拼音** | 带声调，支持多音字 | 拼音映射表（简化版） |
-
-### 💻 开发辅助工具
-| 工具 | 功能描述 | 技术实现 |
-|------|---------|---------|
-| 🎨 **颜色选择器** | HEX/RGB/HSL互转，调色板 | 颜色空间转换算法 |
-| 🔍 **正则测试** | 实时匹配，常用正则库 | `RegExp` 实时验证 |
-| 🐙 **GitHub统计** | 查询用户仓库与贡献 | GitHub REST API |
-| ⚖️ **文本对比** | 差异对比，高亮显示 | diff 算法（简化版） |
-
-### 🌟 生活实用工具
-| 工具 | 功能描述 | 技术实现 |
-|------|---------|---------|
-| 🌤️ **天气查询** | 实时天气，未来预报 | 和风天气 / Open-Meteo API |
-| 💱 **汇率换算** | 实时汇率，多币种 | 固定汇率表（可接 API） |
-| ⚖️ **BMI计算** | 身体质量指数计算 | 标准 BMI 公式 |
-| 📅 **万年历** | 节假日、黄历、宜忌 | 农历算法 + 节假日数据 |
-
-### 🎮 休闲娱乐工具
-| 工具 | 功能描述 | 技术实现 |
-|------|---------|---------|
-| 🕹️ **俄罗斯方块** | 经典游戏，本地最高分 | Canvas API + 游戏循环 |
-| 💭 **每日名言** | 励志语录，一键复制 | 本地名言库随机抽取 |
-| 🎲 **掷骰子** | 多面骰，随机数生成 | `Math.random()` |
-| 🔮 **今日运势** | 星座运势，每日抽签 | 伪随机算法 |
-
-### 📊 数据信息工具
-| 工具 | 功能描述 | 技术实现 |
-|------|---------|---------|
-| 🔥 **实时热搜** | 微博、知乎、百度热榜 | 聚合 API / 模拟数据 |
-| ₿ **加密货币** | BTC、ETH实时价格 | CoinGecko API |
-| 🥇 **贵金属** | 黄金、白银实时价格 | 模拟数据（可接 API） |
-| 💻 **设备信息** | 检测屏幕、浏览器、网络 | `navigator` / `screen` API |
+1.  **纯前端原生架构**：完全基于浏览器端运行，无需后端服务，支持离线使用，静态部署即可上线，零运维成本
+2.  **极致隐私优先**：全工具核心逻辑均在本地执行，无任何用户数据上传、收集、留存，敏感操作全程闭环在用户设备内
+3.  **模块化低耦合设计**：工具模块采用标准化封装，低耦合高内聚，新增工具门槛极低，易于扩展与二次开发
+4.  **全场景工具覆盖**：10+ 工具大类，50+ 细分功能，覆盖开发、设计、办公、生活、娱乐、数据查询全维度需求
+5.  **全平台兼容适配**：针对现代浏览器深度优化，轻量启动无冗余依赖，完美适配桌面端、移动端主流浏览器
+6.  **可插拔扩展能力**：标准化的 API 封装与模块规范，支持第三方工具快速接入与自定义功能扩展
 
 ---
 
-## 🚀 快速开始
+## 功能模块全景
 
-### 方法一：直接下载使用（推荐）
+| 工具分类 | 核心功能清单 |
+| :--- | :--- |
+| 🤖 AI 智能专区 | AI 对话助手、智能文本生成、代码辅助、图片识别、多语言翻译 |
+| 🖼️ 图片处理工具 | 图片编辑、批量压缩、格式转换、滤镜特效、水印添加、裁剪拼接、尺寸调整 |
+| 📝 文本处理工具 | Markdown 实时预览、二维码生成/解析、字数统计、编码转换、文本对比、加解密 |
+| 💻 开发辅助工具 | JSON 格式化/校验、代码沙盒、API 测试、正则表达式调试、时间戳转换、编码转换 |
+| ⏰ 时间日期工具 | 世界时钟、倒计时器、农历公历转换、秒表、时间差计算、日历工具 |
+| 🏠 生活实用工具 | 实时天气查询、汇率换算、BMI 计算、简易记账本、单位换算、常用查询 |
+| 🎬 多媒体工具 | 浏览器端录音机、视频剪辑、音频格式转换、音视频提取、壁纸生成 |
+| 🎮 休闲娱乐模块 | 俄罗斯方块、随机抽签、决策助手、高清壁纸、趣味小工具 |
+| 📊 数据信息看板 | 全网实时热搜聚合（微博/知乎/抖音）、加密货币行情、设备信息查询、API 状态监控 |
 
-1. **下载源码**
-   ```bash
-   git clone https://github.com/yourusername/toolverse.git
-   cd toolverse
-   ```
+---
 
-2. **本地预览**
-   ```bash
-   # 方法1：直接打开文件
-   open index.html
-   
-   # 方法2：使用本地服务器（推荐）
-   npx serve .
-   # 或
-   python -m http.server 8000
-   ```
+## 快速开始
 
-3. **部署到 GitHub Pages**
-   - 在 GitHub 创建新仓库
-   - 上传 `index.html` 到仓库根目录
-   - 进入 Settings → Pages → Source 选择 `main` 分支
-   - 访问 `https://yourusername.github.io/toolverse`
+### 在线使用
+直接访问官方部署地址，无需任何配置，开箱即用：
+🔗 [https://badhope.github.io/tool-verse/](https://badhope.github.io/tool-verse/)
 
-### 方法二：Fork 一键部署
-
-1. 点击右上角 **Fork** 按钮复制仓库
-2. 进入 Settings → Pages 启用 GitHub Pages
-3. 完成！自动获得在线网站
-
-### 方法三：使用模板
-
-点击使用 GitHub 模板创建：
+### 本地部署与二次开发
+1.  克隆仓库到本地
 ```bash
-# 使用此仓库作为模板创建新项目
-# 访问：https://github.com/yourusername/toolverse/generate
+git clone https://github.com/badhope/tool-verse.git
 ```
+2.  进入项目目录
+```bash
+cd tool-verse
+```
+3.  启动本地静态服务（可使用任意静态文件服务器，示例使用 http-server）
+```bash
+# 全局安装 http-server（已安装可跳过）
+npm install -g http-server
+# 启动本地服务
+http-server -p 8080
+```
+4.  浏览器访问 `http://localhost:8080` 即可完成本地运行
 
 ---
 
-## 📁 项目结构
+## 技术栈说明
 
-```
-toolverse/
-├── index.html          # 主入口文件（包含所有代码）
-├── README.md           # 项目文档
-├── LICENSE             # MIT 许可证
-└── assets/             # 可选：静态资源目录
-    └── preview.png     # 预览截图
-```
-
-> **单文件架构**：所有 HTML、CSS、JavaScript 都集成在 `index.html` 中，无需构建工具，零依赖管理。
+-   核心语言：**HTML5、CSS3、JavaScript (ES6+)**
+-   架构模式：原生模块化开发，无强框架依赖，极致轻量化
+-   渲染方案：原生 DOM API + 响应式 CSS，兼容全平台现代浏览器
+-   本地存储：Web Storage + IndexedDB，实现用户配置与数据本地持久化
+-   API 集成：标准化第三方 API 封装，支持可插拔式功能扩展
 
 ---
 
-## ⚙️ 技术架构
+## 贡献指南
 
-### 核心技术栈
-- **HTML5** - 语义化标签，Canvas 绘图
-- **Tailwind CSS** - 原子化 CSS，通过 CDN 引入
-- **Vanilla JavaScript** - 原生 ES6+，无框架依赖
-- **Font Awesome** - 图标库，通过 CDN 引入
+我们热烈欢迎社区开发者为 Tool-Verse 贡献力量，无论是新增工具、修复 BUG、优化性能，还是完善文档，都能让这个项目变得更好。
 
-### 动态实现原理
+### 贡献方向
+1.  **新增工具模块**：遵循项目标准化模块规范，在对应分类下开发新工具，保证纯前端运行、无数据收集、无后端依赖，提交 PR 时附带功能说明与自测报告
+2.  **功能优化与 BUG 修复**：修复现有工具的兼容性问题、功能缺陷，优化工具性能、交互体验与 UI 适配
+3.  **文档与体验优化**：完善使用文档、开发文档，优化新手引导，提升项目易用性
+4.  **需求与建议反馈**：通过 Issue 提交使用问题、新工具需求、功能优化建议
 
-| 功能类型 | 实现方式 | 示例 |
-|---------|---------|------|
-| **本地计算** | 浏览器 JS 引擎 | 时间、随机数、文本处理 |
-| **本地存储** | localStorage | 主题、游戏分数、历史记录 |
-| **公开 API** | fetch() 调用 | 天气、加密货币、GitHub 数据 |
-| **第三方服务** | 嵌入式脚本 | 访客统计、评论系统（可选） |
-
-### 浏览器兼容性
-- ✅ Chrome 80+
-- ✅ Firefox 75+
-- ✅ Safari 13+
-- ✅ Edge 80+
-- ✅ 移动端浏览器（iOS Safari、Chrome Mobile）
+### 贡献流程
+1.  Fork 本项目仓库
+2.  创建功能分支 (`git checkout -b feature/your-feature-name`)
+3.  提交代码更改 (`git commit -m 'feat: add xxx tool / fix: xxx issue'`)
+4.  推送到分支 (`git push origin feature/your-feature-name`)
+5.  提交 Pull Request，我们将尽快完成 Code Review 与合并
 
 ---
 
-## 🔧 自定义配置
+## 隐私声明
 
-### 修改主题色
-在 `<script>` 标签内找到 Tailwind 配置：
-```javascript
-tailwind.config = {
-  theme: {
-    extend: {
-      colors: {
-        primary: '#667eea',    // 修改主色调
-        secondary: '#764ba2',  // 修改次色调
-      }
-    }
-  }
-}
-```
-
-### 添加新工具
-在 `tools` 对象中添加配置：
-```javascript
-const tools = {
-  yourcategory: [
-    { 
-      id: 'your-tool', 
-      name: '工具名称', 
-      icon: '🔧', 
-      desc: '工具描述' 
-    }
-  ]
-};
-```
-
-然后在 `loadTool` 函数中添加渲染逻辑：
-```javascript
-case 'your-tool':
-  toolContent.innerHTML = renderYourTool();
-  initYourTool();
-  break;
-```
-
-### 接入真实 API
-
-**天气 API**（和风天气）：
-```javascript
-// 在 loadWeather 函数中替换为：
-const response = await fetch(
-  `https://devapi.qweather.com/v7/weather/now?location=${city}&key=YOUR_KEY`
-);
-```
-
-**加密货币 API**（CoinGecko）：
-```javascript
-// 已内置，无需修改。如需更高频率：
-const response = await fetch(
-  'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd'
-);
-```
+Tool-Verse 以**隐私优先**为核心设计原则：
+-   所有工具的核心功能均在浏览器本地完成，不会将任何用户输入的文本、文件、图片等数据上传至任何服务器
+-   项目无任何用户行为埋点、数据收集、第三方追踪脚本
+-   仅部分依赖第三方公开 API 的工具（如天气、热搜、汇率）会发起必要的网络请求，且不会携带任何用户个人标识信息
 
 ---
 
-## 📊 性能指标
+## 社区与反馈
 
-| 指标 | 数值 | 说明 |
-|------|------|------|
-| **首屏加载** | < 1.5s | CDN 资源 + 本地缓存 |
-| **交互响应** | < 100ms | 纯本地计算 |
-| **总资源大小** | ~50KB | 不含图片 |
-| ** Lighthouse 评分** | 95+ | 性能、可访问性、SEO |
+-   项目仓库：[GitHub - badhope/tool-verse](https://github.com/badhope/tool-verse)
+-   在线地址：[Tool-Verse 工具宇宙 Pro](https://badhope.github.io/tool-verse/)
+-   问题反馈：[GitHub Issues](https://github.com/badhope/tool-verse/issues)
+-   联系邮箱：x18825407105@outlook.com
 
 ---
 
-## 🛣️ 路线图
+## 开源许可证
 
-- [ ] 添加更多游戏（贪吃蛇、2048）
-- [ ] 支持 PWA 离线安装
-- [ ] 多语言支持（i18n）
-- [ ] 添加更多 API 集成（新闻、股票）
-- [ ] 用户自定义工具排序
-- [ ] 数据导出/导入功能
-
----
-
-## 🤝 贡献指南
-
-欢迎提交 Issue 和 Pull Request！
-
-1. Fork 本仓库
-2. 创建你的功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
-
-### 提交规范
-- `feat:` 新功能
-- `fix:` 修复 bug
-- `docs:` 文档更新
-- `style:` 代码格式（不影响功能）
-- `refactor:` 重构
-- `test:` 测试相关
-- `chore:` 构建过程或辅助工具的变动
-
----
-
-## 📄 许可证
-
-本项目基于 [MIT](LICENSE) 许可证开源。
-
-```
-MIT License
-
-Copyright (c) 2024 ToolVerse
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
-## 🙏 致谢
-
-- [Tailwind CSS](https://tailwindcss.com) - 优秀的原子化 CSS 框架
-- [Font Awesome](https://fontawesome.com) - 丰富的图标库
-- [QRCode.js](https://github.com/davidshimjs/qrcodejs) - 二维码生成库
-- [CoinGecko API](https://www.coingecko.com/en/api) - 加密货币数据
-
----
-
-## 📮 联系方式
-
-- **项目主页**: https://yourusername.github.io/toolverse
-- **问题反馈**: https://github.com/yourusername/toolverse/issues
-- **邮箱**: your.email@example.com
-
----
-
-> ⭐ **如果这个项目对你有帮助，请给个 Star！** ⭐
-
-Made with ❤️ by [Your Name](https://github.com/yourusername)
-```
-
+本项目采用 **MIT 许可证** 开源，详情可查看项目内的 LICENSE 文件。
