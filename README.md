@@ -1,4 +1,4 @@
-# Tool-Verse 工具宇宙 Pro
+# Tool-Verse 工具宇宙
 
 ![GitHub stars](https://img.shields.io/github/stars/badhope/tool-verse?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/badhope/tool-verse?style=social)
@@ -12,7 +12,7 @@
 
 ## 项目简介
 
-Tool-Verse 工具宇宙 Pro 是一款**纯前端原生实现**的一站式离线工具集，内置 50+ 开箱即用的效率工具，覆盖 AI 智能、开发辅助、图片处理、文本办公、生活实用、休闲娱乐等全场景需求。项目全程基于浏览器端运行，无后端服务依赖，无任何用户数据收集，开箱即用、零部署成本，是开发者、办公人群、日常用户的全能效率工具箱。
+Tool-Verse 工具宇宙 是一款**纯前端原生实现**的一站式离线工具集，内置 50+ 开箱即用的效率工具，覆盖 AI 智能、开发辅助、图片处理、文本办公、生活实用、休闲娱乐等全场景需求。项目全程基于浏览器端运行，无后端服务依赖，无任何用户数据收集，开箱即用、零部署成本，是开发者、办公人群、日常用户的全能效率工具箱。
 
 ---
 
@@ -110,7 +110,7 @@ Tool-Verse 以**隐私优先**为核心设计原则：
 ## 社区与反馈
 
 -   项目仓库：[GitHub - badhope/tool-verse](https://github.com/badhope/tool-verse)
--   在线地址：[Tool-Verse 工具宇宙 Pro](https://badhope.github.io/tool-verse/)
+-   在线地址：[Tool-Verse 工具宇宙 ](https://badhope.github.io/tool-verse/)
 -   问题反馈：[GitHub Issues](https://github.com/badhope/tool-verse/issues)
 -   联系邮箱：x18825407105@outlook.com
 
